@@ -4,8 +4,9 @@
 // You may need to add permissions for MAC OS with Apache
 //     sudo chmod -R 755 /library/webserver/documents
 //     (assuming default folder)
-
+header('Access-Control-Allow-Origin: *');
 include('./httpful.phar');
+
 
 // define some constants for this quick sample
 define("CONSUMER_KEY", "6XadFHPBCU9oFKqupx75z9kszMfKAFlH");
